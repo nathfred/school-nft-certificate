@@ -16,7 +16,8 @@ import { NoticeForm } from '../components';
 
 const initialState: NoticeFormProps = {
   title: '',
-  content: '',
+  // content: '',
+  description: '',
   status: 0,
   recipientType: 'EV',
   recipientRole: 0,
